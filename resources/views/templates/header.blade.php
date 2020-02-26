@@ -47,10 +47,6 @@
     <link rel="stylesheet" href="{{asset('assets/assets/css/dashforge.auth.css')}}">
     <script src="{{asset('assets/lib/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('assets/lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('assets/assets/js/dashforge.js')}}"></script>
-    <script src="{{asset('assets/assets/js/dashforge.aside.js')}}"></script>
-    <script src="{{asset('assets/assets/js/dashforge.sampledata.js')}}"></script>
-
     <script type="text/javascript">
     $(document).ready(function(){
       $('.formalumni').click(function(){
@@ -81,7 +77,9 @@
     <!-- <script src="{{asset('assetslib/chart.js/Chart.bundle.min.js')}}"></script> -->
     <script src="{{asset('assets/lib/jqvmap/jquery.vmap.min.js')}}"></script>
 
-    
+    <script src="{{asset('assets/assets/js/dashforge.js')}}"></script>
+    <script src="{{asset('assets/assets/js/dashforge.aside.js')}}"></script>
+    <script src="{{asset('assets/assets/js/dashforge.sampledata.js')}}"></script>
 
     <!-- append theme customizer -->
     <script src="{{asset('assets/lib/js-cookie/js.cookie.js')}}"></script>
@@ -89,15 +87,6 @@
     <script src="{{asset('assets/lib/select2/js/select2.min.js')}}"></script>
 
     <script src="{{asset('js/js_footer.js')}} "></script>
-    
-    <script type="text/javascript">
-      $('#wizard1').steps({
-  headerTag: 'h3',
-  bodyTag: 'section',
-  autoFocus: true,
-  titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>'
-});
-    </script>
 
     <script type="text/javascript">
       $(".select2").select2({
